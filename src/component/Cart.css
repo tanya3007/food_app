@@ -1,0 +1,133 @@
+*{margin:0; padding: 0; box-sizing: border-box;}
+
+.shopping
+{
+    font-size: small;
+    position:fixed;
+    background-color: white;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+}
+
+.try1
+{
+    float:left;
+    font-weight: bold;
+    font-size:x-large;
+    padding-left: 0.65em;
+    padding-top:0.35em ;
+    padding-right: 0.65em;
+    padding-bottom:0.35em ;
+    margin-top: 0.65em;
+
+}
+
+.try2
+{
+    float:right;
+    display:flex;
+    padding-left: 3em;
+    padding-top:0.35em ;
+    padding-right: 0.65em;
+    padding-bottom:0.35em ;
+    box-sizing: border-box;
+    margin-top: 0.65em;
+    margin-bottom: 0.35em;
+    margin-left: auto;
+    margin-right: 0.65em;
+    /* background-color: #00eeff; */
+    border-radius: 10px;
+}
+.icon
+{
+    display:flex;
+    vertical-align: middle;
+    align-items: left;
+    background-color: transparent;
+}
+.cart
+{
+    font-size:20px;
+    margin-right: 0.65em;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.content1
+{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 500px;
+    padding-left: 20px;
+    background-color: white;
+    margin-top:-100px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    position: relative;
+    z-index: 5;
+    width: 70%;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+.right
+{
+    position: absolute;
+    left: 80px;
+    bottom:50px;
+}
+
+.content1
+{
+    display: table;
+    border-collapse: collapse;
+    border:30px solid transparent;
+}
+
+.listitems
+{
+    display: table-row;
+    border-bottom: 2px solid crimson;
+}
+
+.pr1
+{
+    display: table-cell;
+}
+.pr2
+{
+    display: table-cell;
+    width: 500px;
+}
+.pr3
+{
+    display:table-cell;
+}
+
+.btn
+{
+    background-color: #90ee90;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 150px;
+    height: 40px
+}
+.number
+{
+    color: #00008b;
+    font-size: 30px;
+    font-weight: 700
+}
+.large
+{
+    color: teal;
+}
+.small
+{
+    font-style: italic;
+    flex:1 1;
+}
